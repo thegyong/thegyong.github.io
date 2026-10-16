@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>위젯 메모 개인정보처리방침</title>
+<meta name="description" content="위젯 메모 앱의 개인정보처리방침 (Privacy Policy)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='20 20 68 68'%3E%3Crect x='20' y='20' width='68' height='68' rx='16' fill='%23F6F5F1'/%3E%3Cpath d='M40,30h28a6,6 0 0 1 6,6v36a6,6 0 0 1 -6,6h-28a6,6 0 0 1 -6,-6v-36a6,6 0 0 1 6,-6z' fill='%23fff' stroke='%231F2328' stroke-width='3'/%3E%3Cpath d='M42,47l4.5,4.5l9,-9.5' fill='none' stroke='%232F5D8A' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M42,63h24' stroke='%231F2328' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #F6F5F1; --card: #FFFFFF; --ink: #1F2328; --ink2: #5F656B; --ink3: #6B7075;
+    --line: #E3E1DB; --accent: #2F5D8A;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17191B; --card: #202326; --ink: #ECEDEE; --ink2: #B4B9BE; --ink3: #8F959B;
+      --line: #33373B; --accent: #8DB4DC;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", "Malgun Gothic", sans-serif;
+    font-size: 16px; line-height: 1.75; word-break: keep-all;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px; }
+  .back { font-size: 15px; }
+  h1 { font-size: 28px; margin: 16px 0 4px; letter-spacing: -0.02em; }
+  .meta { color: var(--ink3); font-size: 14px; margin: 0 0 24px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 8px 24px 16px; margin-bottom: 16px; }
+  h2 { font-size: 18px; margin: 16px 0 4px; }
+  ul { padding-left: 20px; margin: 8px 0; }
+  li { margin: 4px 0; }
+  p { margin: 8px 0; }
+  code { font-size: 14px; background: var(--bg); border-radius: 6px; padding: 1px 6px; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  .lang { margin: 40px 0 8px; padding-top: 24px; border-top: 1px solid var(--line); }
+  footer { max-width: 720px; margin: 0 auto; padding: 8px 20px 48px; color: var(--ink3); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="./">← 위젯 메모</a>
+  <h1>개인정보처리방침</h1>
+  <p class="meta">시행일 2026년 10월 17일 · <a href="#en">English</a></p>
+
+  <section>
+    <h2>한눈에 보기</h2>
+    <ul>
+      <li>위젯 메모는 개발자에게 어떤 개인정보도 보내지 않아요. 개발자가 운영하는 서버가 없고, 광고나 사용 분석 도구도 쓰지 않아요.</li>
+      <li>메모는 기본적으로 사용자의 폰 안에만 저장돼요.</li>
+      <li>구글 드라이브 동기화를 켜면, 사용자 본인의 드라이브에 이 앱이 만든 파일로만 저장돼요.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>1. 폰 안에 저장하는 정보</h2>
+    <p>앱에 쓴 메모, 체크리스트, 일기, 폴더, 위젯 설정, 첨부한 사진을 앱 전용 저장공간에 저장해요. 다른 앱은 이 공간을 읽을 수 없어요.</p>
+    <p>사진은 고를 때 크기를 줄여 다시 저장하고, 이때 촬영 위치 같은 사진 속 부가정보(EXIF)는 저장하지 않아요. 사진을 고를 때는 안드로이드의 사진 선택 화면을 쓰기 때문에, 앱이 갤러리 전체에 접근하지 않아요.</p>
+  </section>
+
+  <section>
+    <h2>2. 구글 드라이브 동기화 (선택)</h2>
+    <p>사용자가 직접 드라이브를 연결했을 때만 동작해요.</p>
+    <ul>
+      <li><b>저장 위치</b>: 사용자 드라이브의 "위젯 메모" 폴더. 메모 전체를 담은 <code>widget-memo.json</code> 파일 하나와 사진 파일들이 들어가요.</li>
+      <li><b>권한 범위</b>: <code>drive.file</code> 하나만 요청해요. 이 앱이 만든 파일만 보고 고칠 수 있고, 드라이브의 다른 파일은 볼 수 없어요. 이메일 주소나 프로필 같은 구글 계정 정보는 요청하지 않아요.</li>
+      <li><b>통신</b>: 폰이 구글 서버와 직접 암호화된 연결(HTTPS)로 주고받아요. 중간에 개발자 서버를 거치지 않아요.</li>
+      <li><b>정리</b>: 어느 메모에도 쓰이지 않게 된 사진은 동기화할 때 드라이브의 휴지통으로 옮겨요.</li>
+    </ul>
+    <p>위젯 메모가 Google API에서 받은 정보를 사용하거나 다른 앱으로 전송할 때는 제한적 사용(Limited Use) 요구사항을 포함한 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>을 따라요.</p>
+  </section>
+
+  <section>
+    <h2>3. 안드로이드 기본 백업</h2>
+    <p>폰에서 안드로이드 백업(구글 백업)이나 기기 간 데이터 옮기기를 쓰면, 이 앱의 데이터도 그 백업에 함께 들어갈 수 있어요. 이 백업은 안드로이드와 사용자의 구글 계정이 관리하며, 개발자는 볼 수 없어요.</p>
+  </section>
+
+  <section>
+    <h2>4. 제3자 제공</h2>
+    <p>개인정보를 다른 사람이나 회사에 팔거나 제공하지 않아요. 앱이 인터넷을 쓰는 곳은 구글 드라이브 동기화와 구글 로그인뿐이에요.</p>
+  </section>
+
+  <section>
+    <h2>5. 보관과 삭제</h2>
+    <ul>
+      <li>지운 메모는 앱의 휴지통에 30일 동안 있다가 완전히 지워져요. 휴지통에서 바로 완전히 지울 수도 있어요.</li>
+      <li>앱을 지우면 폰 안의 데이터가 모두 지워져요.</li>
+      <li>드라이브에 저장된 데이터는 드라이브의 "위젯 메모" 폴더를 지우면 없어져요.</li>
+      <li>드라이브 접근 권한은 <a href="https://myaccount.google.com/connections">구글 계정 → 서드 파티 앱 및 서비스</a>에서 언제든 해제할 수 있어요.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. 바뀌는 경우와 문의</h2>
+    <p>이 방침이 바뀌면 이 페이지를 고치고 위의 시행일을 바꿔요. 궁금한 점은 <a href="https://github.com/thegyong/thegyong.github.io/issues">GitHub Issues</a>로 남겨 주세요.</p>
+  </section>
+
+  <h1 id="en" class="lang">Privacy Policy</h1>
+  <p class="meta">Effective October 17, 2026</p>
+
+  <section>
+    <h2>Summary</h2>
+    <p>Widget Memo (위젯 메모) does not send any personal information to its developer. There is no developer server, no advertising and no analytics. Notes are stored on your phone by default.</p>
+    <h2>Data on your phone</h2>
+    <p>Notes, checklists, diary entries, folders, widget settings and attached pictures are kept in the app's private storage. Pictures are resized when added and saved without EXIF metadata such as location. Pictures are chosen through the Android photo picker, so the app has no access to your whole gallery.</p>
+    <h2>Google Drive sync (optional)</h2>
+    <p>Only when you connect Drive, the app stores one file, <code>widget-memo.json</code>, and your pictures in a "위젯 메모" folder in your own Google Drive. It requests only the <code>drive.file</code> scope, so it can see and change only the files it created, and it does not request your email address or profile. Data goes directly between your phone and Google over HTTPS. Pictures no longer used by any note are moved to the Drive trash during sync.</p>
+    <p>Widget Memo's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    <h2>Android backup</h2>
+    <p>If you use Android backup or device-to-device transfer, the app's data may be included in that backup, which is managed by Android and your Google account and is not accessible to the developer.</p>
+    <h2>Sharing</h2>
+    <p>Personal information is never sold or shared with third parties. The app connects to the internet only for Google sign-in and Drive sync.</p>
+    <h2>Retention and deletion</h2>
+    <p>Deleted notes stay in the in-app trash for 30 days and are then removed for good. Uninstalling the app removes all data on the phone. Deleting the "위젯 메모" folder removes the data on Drive. You can revoke Drive access at any time at <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>.</p>
+    <h2>Changes and contact</h2>
+    <p>Changes are posted on this page with a new effective date. Questions can be left at <a href="https://github.com/thegyong/thegyong.github.io/issues">GitHub Issues</a>.</p>
+  </section>
+</main>
+<footer>© 2026 thegyong</footer>
+</body>
+</html>
